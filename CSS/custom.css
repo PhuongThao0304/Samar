@@ -1,0 +1,61 @@
+/* Custom siêu cấp đa vũ trụ - Oppa Tiến */
+
+.navbar{
+    margin-right: 0;
+}
+.header{
+    z-index: 10;
+}
+.container{
+    max-width: 1190px; /* Anh sửa lại max-width cho giống web mẫu */
+    position: relative;
+}
+
+/* SECTION - ABOUT */
+.intro{
+    overflow: hidden; /* che lại bớt vùng animation bên phải khi đi từ dưới lên như web mẫu */
+}
+.intro_content i{
+    width: 40px;
+    height: 40px;
+}
+.intro_content .right{
+    width: 40%;
+}
+.intro_content .right .wrapper{
+    width: 570px;
+    margin-left: 50px;
+}
+/* SECTION - ABOUT */
+.About .left{
+    margin-right: 0;
+    position: absolute;
+    width: 60%;
+    left: -17%;
+}
+
+.About .left img {
+    /* width: 150%; */
+    width: 100%;
+    border-radius: 0 100px 100px 0;
+}
+
+.About .right{
+    width: 50%;
+}
+
+.number_content .item{
+    text-align: center;
+}
+
+.number_content .item i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: unset;
+    margin: auto;
+}
+
+
+
+
